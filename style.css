@@ -1,0 +1,67 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a clean and modern font */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Set a centered layout for the content */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the header */
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Style the navigation menu */
+.navbar {
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Style the main content area */
+.main-content {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the footer */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #999;
+    font-size: 14px;
+}
